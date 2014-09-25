@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+void main()
+{
+  for(unsigned long int i = 0; i < 1024*1024; i++)
+  {
+    printf("0x%016lX P_FETCH %u\n", i*8192, i);
+  }
+}
